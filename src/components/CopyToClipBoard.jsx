@@ -4,7 +4,7 @@ import copy from 'clipboard-copy';
 const CopyToClipBoard = (reset = null) => {
   const [copied, setCopied] = useState(false);
   const setClipboard = (pathname) => {
-    copy(`https://williamjog.github.io/Aplicativo-de-Receitas/#/${pathname}`);
+    copy(`https://williamjog.github.io/Aplicativo-de-Receitas/#${pathname}`);
     setCopied(true);
   };
   useEffect(() => {
