@@ -18,7 +18,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 
 ---
 
-Para baixar e subir o projeto localmente, utilize os dois comandos abaixo:
+Para baixar e subir o projeto localmente, utilize os dois comandos abaixo depois de clonar o repositório:
 
   * npm install
   * npm start
