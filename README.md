@@ -20,7 +20,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 
 Para baixar e subir o projeto localmente, utilize os dois comandos abaixo:
 
-  * npm Install
+  * npm install
   * npm start
   
 ---
