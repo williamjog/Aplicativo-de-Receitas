@@ -10,7 +10,7 @@ Você pode acessar a página do projeto neste link:
 
 Nesse projeto foram utilizadas as seguintes tecnologias:
 
-  - Context API do React para gerenciar o estado global;
+  - Context API do React para gerenciamento do estado global;
   - React Hook useState;
   - React Hook useContext;
   - React Hook useEffect;
