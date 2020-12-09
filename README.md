@@ -2,7 +2,7 @@
 
 Você pode acessar a página do projeto neste link:
 
- * https://williamjog.github.io/Aplicativo-de-Receitas/#/comidas/53026
+ * https://williamjog.github.io/Aplicativo-de-Receitas/#/
 
 ---
 
