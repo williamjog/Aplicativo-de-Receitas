@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96b380ee17bfef4afad653b91d20131b",
+    "revision": "41da496304b1f47ebc921f22562f1835",
     "url": "/Aplicativo-de-Receitas/index.html"
   },
   {
-    "revision": "a6965af5f5d7d0642d96",
-    "url": "/Aplicativo-de-Receitas/static/css/main.0e19ec19.chunk.css"
+    "revision": "f5b542b5c5300184ace1",
+    "url": "/Aplicativo-de-Receitas/static/css/main.094a03d1.chunk.css"
   },
   {
-    "revision": "7cfd8cfae4f69cc73957",
-    "url": "/Aplicativo-de-Receitas/static/js/2.c8834c9d.chunk.js"
+    "revision": "a8aabd4c3c743c721a69",
+    "url": "/Aplicativo-de-Receitas/static/js/2.1fb96b02.chunk.js"
   },
   {
     "revision": "737926aa5f30acaedb866e79ac0007c9",
-    "url": "/Aplicativo-de-Receitas/static/js/2.c8834c9d.chunk.js.LICENSE.txt"
+    "url": "/Aplicativo-de-Receitas/static/js/2.1fb96b02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6965af5f5d7d0642d96",
-    "url": "/Aplicativo-de-Receitas/static/js/main.08e62df5.chunk.js"
+    "revision": "f5b542b5c5300184ace1",
+    "url": "/Aplicativo-de-Receitas/static/js/main.19758a38.chunk.js"
   },
   {
     "revision": "a87a6cb0ae775434637e",
@@ -29,7 +29,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "c48f87a199c2b3fdbe2bda36a4b15f4e",
-    "url": "/Aplicativo-de-Receitas/static/media/clipart-cookies-cooking-7-original.c48f87a1.png"
+    "url": "/Aplicativo-de-Receitas/static/media/chef.c48f87a1.png"
+  },
+  {
+    "revision": "d0fdc0c743825bc29585383c5cc34551",
+    "url": "/Aplicativo-de-Receitas/static/media/cook.d0fdc0c7.jpg"
   },
   {
     "revision": "f87c47c37c0c0530fe7307af260caa25",
@@ -40,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Aplicativo-de-Receitas/static/media/exploreIcon.157945ff.svg"
   },
   {
+    "revision": "4ebd569d8416313159a34ae9e82300aa",
+    "url": "/Aplicativo-de-Receitas/static/media/fried.4ebd569d.svg"
+  },
+  {
     "revision": "b27ba19ea033355b73926443af1756e9",
     "url": "/Aplicativo-de-Receitas/static/media/mealIcon.b27ba19e.svg"
   },
   {
     "revision": "74e487e504d5cf16d7832bef2fbacfea",
     "url": "/Aplicativo-de-Receitas/static/media/profileIcon.74e487e5.svg"
+  },
+  {
+    "revision": "f57dcb82aca89308ddc9f876538bf9b6",
+    "url": "/Aplicativo-de-Receitas/static/media/recipe.f57dcb82.svg"
   },
   {
     "revision": "db81213596cb3beb56440bb39aa70c8c",
