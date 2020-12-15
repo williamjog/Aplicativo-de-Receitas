@@ -75,11 +75,10 @@ h1, h2, h3, h4 {
  }
 
  .searchBar-radios {
-   align-items: center;
    display: flex;
    justify-content: space-around;
    margin-top: 10px;
-   width: 80%;
+   width: 70%;
  }
 
 .searchBar-radio {
@@ -89,9 +88,8 @@ h1, h2, h3, h4 {
   box-shadow: 1px 2px 2px #558c8cb3;
   color: #eff7ffff;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  margin-right: 4px;
   outline: none;
   padding: 5px 0 7px 8px;
   text-shadow: 
@@ -144,7 +142,6 @@ h1, h2, h3, h4 {
   font-size: 14px;
   font-weight: bold;
   outline: none;
-  padding: 5px 0 7px 4px;
   text-shadow: 
   /* horizontal-shadow vertical-shadow color; */
   -1px 0px #ff6d3aff,
@@ -163,7 +160,7 @@ h1, h2, h3, h4 {
   box-shadow: 1px 2px 2px #558c8cb3;
   color: #eff7ffff;
   cursor: default;
-  padding: 5px 0 7px 4px;
+  padding: 0;
 }
 
  .footer-container {

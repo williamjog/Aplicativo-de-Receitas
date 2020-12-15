@@ -1,17 +1,18 @@
 import React, { useContext, useEffect, useState } from 'react';
 import propTypes from 'prop-types';
-import ListaIngredientesEmProgresso from './ListaIngredientesEmProgresso';
+import { Redirect } from 'react-router-dom';
+import { ListaIngredientesEmProgresso, FavoriteShareButtons } from '../components';
 import ReceitasContext from '../context/ReceitasContext';
-import fetchFood from '../servicesAPI/foodAPI';
-import fetchDrink from '../servicesAPI/drinkAPI';
-import FavoriteShareButtons from '../components/FavoriteShareButtons';
+import { fetchDrink, fetchFood } from '../servicesAPI';
 
 function ReceitaEmProgresso({ match }) {
   const { setIsFetching, isFetching, keyProps,
-    setRecipeGlobal } = useContext(ReceitasContext);
+    setRecipeGlobal, recipesDone } = useContext(ReceitasContext);
   const type = (match.path.match('comidas')) ? 'meal' : 'drink';
-  const [recipe, setRecipe] = useState([]);
+  const urlByType = (type === 'meal') ? 'comidas' : 'bebidas';
   const { id } = match.params;
+  const isDone = recipesDone.find((recipeDone) => recipeDone.id === id);
+  const [recipe, setRecipe] = useState([]);
 
   useEffect(() => {
     setIsFetching(true);
@@ -23,14 +24,18 @@ function ReceitaEmProgresso({ match }) {
       setRecipeGlobal(...response);
       setIsFetching(false);
     };
-    firstRequestAPI();
+    if (!isDone) firstRequestAPI();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const firstRender = (isDone)
+    ? <Redirect to={ `/${urlByType}/${id}` } />
+    : <h2>Loading...</h2>;
 
   return (
     <main className="detalhes-main">
       {isFetching
-        ? <h2>Loading...</h2>
+        ? firstRender
         : (
           <div>
             <header className="detalhes-header">

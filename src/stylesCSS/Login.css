@@ -59,7 +59,7 @@
 }
 
 .login-image {
-  background-image: url('../images/clipart-cookies-cooking-7-original.png');
+  background-image: url('../images/chef.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -173,7 +173,7 @@ button[disabled] {
   }
   
   .login-image {
-    background-image: url('../images/clipart-cookies-cooking-7-original.png');
+    background-image: url('../images/chef.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -251,3 +251,17 @@ button[disabled] {
     padding: 0;
   }
 }
+
+/* 
+CSS HEX
+--black: #000000ff;
+--dark-green: #002e24ff;
+--pine-green: #2b7869ff;
+--steel-teal: #558c8cff;
+--flame: #ed5729ff;
+--orange-crayola: #ff6d3aff;
+--dark-orange: #ff901dff;
+--honey-yellow: #ffb125ff;
+--azure-x-11-web-color: #dae6e7ff;
+--alice-blue: #eff7ffff;
+*/
