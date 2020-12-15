@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const toDeploy = false;
+const toDeploy = true;
 const appWithRoute = (toDeploy)
   ? <HashRouter><App /></HashRouter>
   : <BrowserRouter><App /></BrowserRouter>;
