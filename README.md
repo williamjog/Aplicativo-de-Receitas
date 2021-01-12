@@ -15,6 +15,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
   - React Hook useContext;
   - React Hook useEffect;
   - Hooks customizados.
+  - Rotas
 
 ---
 
